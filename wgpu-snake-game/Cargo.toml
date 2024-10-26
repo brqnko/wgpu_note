@@ -1,0 +1,12 @@
+[package]
+name = "wgpu-snake-game"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+bytemuck = { version = "1.19.0", features = ["derive"] }
+pollster = "0.3.0"
+rand = "0.8.5"
+wgpu = "22.1.0"
+winit = "0.30.5"
